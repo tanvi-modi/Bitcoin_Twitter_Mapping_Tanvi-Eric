@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Geographical Mapping using Twitter Trends </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
+<body>
+
+    <!-- falling coin-animation -->
+    <div class='container-coin'>
+        <img class="coin-1" src='images/bitcoin.png' />
+        <img class="coin-2" src='images/bitcoin.png' />
+        <img class="coin-3" src='images/bitcoin.png' />
+        <img class="coin-4" src='images/bitcoin.png' />
+        <img class="coin-5" src='images/bitcoin.png' />
+        <img class="coin-6" src='images/bitcoin.png' />
+        <img class="coin-7" src='images/bitcoin.png' />
+        <img class="coin-8" src='images/bitcoin.png' />
+        <img class="coin-9" src='images/bitcoin.png' />
+        <img class="coin-10" src='images/bitcoin.png' />
+        <img class="coin-11" src='images/bitcoin.png' />
+        <img class="coin-12" src='images/bitcoin.png' />
+        <img class="coin-13" src='images/bitcoin.png' />
+        <img class="coin-14" src='images/bitcoin.png' />
+        <img class="coin-15" src='images/bitcoin.png' />
+    </div>
+
+    <!-- title section - 1 -->
+    <div class="title-container">
+        <h1>Bitcoin Popularity in the USA </h1>
+        <p> Is bitcoin a new gold rush? Bitcoin and Cryptocurrencies have gained momentum in the past decade. During
+            thanksgiving
+            in 2017, most dinner with family were talking about the new tech fad, "the bitcoin" and how this is the next
+            big
+            thing. Just after that evryone started investing in bitcoin heavily, only to lose their money by more than 5
+            times. It
+            fell from 17k to 3k in the next 2 years. Everyone started bashing the concept and the bitcoin miners and
+            enthusiasts
+            were trolled in twitter almost everyday. </p>
+        <br>
+        <p>Until 2020 happened, the crypto market entered bull run again, it shattered the
+            financial market and all the naysayers. Bitcoin became as valuable as the gold market with trillions of
+            market cap. I
+            have shown how twitter users are talking about it in the last week with their geo location. The tweets were
+            collected
+            using the <b>Twitter API</b> with the #bitcoin hashtag having geo information. They were then aggregated
+            based on their location using a frequency
+            count dictionary. These locations are plotted in the US map with their count as circles, with radius as
+            their count
+            origination from that specific city. This visualization shows which cities in the US are actively discussion
+            about
+            bitcoin.
+        </p>
+    </div>
+
+    <!-- section-1 - geomap -->
+    <div class="container-1">
+        <div id="chart1">
+            <svg>
+                <text x="375" y="775" fill="rgb(124, 121, 121)" opacity="0.7" font-size="17"> Hover over the bubbles to
+                    see tweet counts or zoom & pan to see more. </text>
+            </svg>
+        </div>
+    </div>
+    <script src="scriptTweets.js"></script>
+
+
+    <!-- title section - 2-->
+    <div class="title-container-2">
+        <h2> Which cities tweet about Bitcoin the most? </h2>
+    </div>
+
+    <!-- section-2- coinchart -->
+    <div class="grid-container-2">
+        <div id="chart2">
+            <script src="coin_chart.js"></script>
+            <p> Hover over to each bubble to see city tweet count! </p>
+        </div>
+        <div id="coin-content">
+            <p> We chose the top 15 cities based on their count. These cities are shown as circles with varying radius
+                similar to the above US map. However, here we have curated only the relevant cities which have more
+                twitter traffic.
+                Accordingly, we can see that most tech hubs in <b>California, Texas, Seattle and financial sectors in
+                    New York</b> are shown as
+                having high twitter traffic for bitcoin discussion. </p>
+        </div>
+    </div>
+
+    <!-- title section - 3 -->
+    <div class="title-container-3">
+        <h2> Weekly Bitcoin Prices in USD from September 2020 – March 2021 </h2>
+    </div>
+
+    <!-- section-3 - line-graph -->
+    <div class="container-3">
+        <div id="chart3">
+            <script src="line_graph.js"></script>
+        </div>
+        <p> Back in 2010, there were miners who used 5 bitcoins to buy pizzas. it costed less than a dollar and almost
+            none talked
+            or knew about it. 10 years later, owning 5 to 10 bitcoins would give you generational wealth. Is bitcoin a
+            new gold
+            rush? Yes, we believe so. The prices have started climbing up to all the high of 20k by late 2020. All the
+            financial
+            pundits who wrote off crypto as a scam, were regretting not investing in bitcoin and not being the initial
+            adapters. Now
+            1 bitcoin costs 60k as of March 2021. This shows how the bitcoin popularity soared in the above graph, where
+            we have shown
+            the price fluctuations starting from September 2020 till March 2021. </p>
+    </div>
+
+
+    <!-- section-4 - footer -->
+    <div class="footer">
+        <p> Design and Content by <b>Tanvi Modi and Eric Fayad </b> <br>MS in Information Design and Data Visualization
+        </p>
+        <div id="references">
+            <b>References </b>
+            <li> Data: <a href="https://developer.twitter.com/en/products/twitter-api"> Twitter API </a> </li>
+            <li> Code: <a href="https://www.w3schools.com/w3css/default.asp"> W3 Schools </a>, <a
+                    href="https://stackoverflow.com/"> StackOverflow</a>, <a href="https://grid.layoutit.com/"> Grid
+                    Generator </a></li>
+            <li> Visualization: <a href="https://www.d3-graph-gallery.com"> D3 Graph Gallery </a> </li>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

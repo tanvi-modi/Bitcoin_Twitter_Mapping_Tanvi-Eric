@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 20px 160px;
+  padding: 0px;
+  background-color: #201c1c;
+  color: rgb(124, 121, 121);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 1;
+  font-size: 16pt; 
+}
+
+
+/*  falling-coins trial */
+
+.container-coin {
+  margin:160px;
+  padding-bottom: 50px;
+}
+
+
+/* elements to animate */
+.coin-1 {
+  width: 160px;
+  height: 85px;
+  position: absolute;
+  top: -100px;
+  left: 500px;
+  animation: coinfall 4s ease 400ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-2 {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  top: -20px;
+  left: 800px;
+  animation: coinfall 4s ease 300ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-3 {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  top: 60px;
+  left: 300px;
+  animation: coinfall 4s ease 400ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-4 {
+  width: 140px;
+  height: 75px;
+  position: absolute;
+  top: -50px;
+  left: 120px;
+  animation: coinfall 4s ease 300ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-5 {
+  width: 180px;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  animation: coinfall 4s ease 400ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-6 {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  top: 70px;
+  left: 1300px;
+  animation: coinfall 4s ease 300ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-7 {
+  width: 200px;
+  height: 110px;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  animation: coinfall 4s ease 400ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-8 {
+  width: 160px;
+  height: 85px;
+  position: absolute;
+  top: 120px;
+  left: 1500px;
+  animation: coinfall 4s ease 300ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-9 {
+  width: 170px;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+  left: 1200px;
+  animation: coinfall 4s ease 400ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-10 {
+  width: 200px;
+  height: 110px;
+  position: absolute;
+  top: -200px;
+  left: 900px;
+  animation: coinfall 4s ease 300ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-11 {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  top: -40px;
+  left: 1450px;
+  animation: coinfall 4s ease 400ms both;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-12 {
+  width: 100px;
+  height: 55px;
+  position: absolute;
+  top: -100px;
+  left: 1650px;
+  animation: coinfall 4s ease 300ms forwards;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-13 {
+  width: 160px;
+  height: 90px;
+  position: absolute;
+  top: -200px;
+  left: 250px;
+  animation: coinfall 4s ease 400ms forwards;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-14 {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  top: -200px;
+  left: 650px;
+  animation: coinfall 4s ease 300ms forwards;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+.coin-15 {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  top: -190px;
+  left: 1350px;
+  animation: coinfall 4s ease 400ms forwards;
+  opacity: 60%;
+  animation-iteration-count: 1;
+}
+
+/* keyframes */
+
+@keyframes coinfall{
+  0% { 
+    transform: translateY(-200px) scale(0.9);
+    /* box-shadow: 0 0 0 0 rgba(110, 105, 98, 0.7); */
+    opacity: 1 
+    } 
+
+    
+  40%, 80% {
+    transform: translateY(300px) scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    opacity: 0.3;
+  }
+
+  80%, 100% { 
+    transform: translateY(300px) scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    opacity: 0.65;
+    }
+}
+
+/* ----------------------- */
+
+/* Title */
+
+.title-container {
+  align-content: center;
+}
+
+h1 {
+  color:#FF9900;
+  margin-top: 650px;
+  font-family: 'PT Serif', serif;
+  font-size: 50pt;
+  font-weight: 20;
+  margin-bottom: -150px;
+  animation: AnimateTitle 2s 400ms both;
+  text-align: center;
+}
+
+@keyframes AnimateTitle {
+  from {transform:translateY(-500px);opacity:0}
+  to {transform:translateY(-250px); opacity:1} 
+}
+
+.title-container > p {
+  margin-top: -50px;
+  line-height: 35px;
+  text-align:justify;
+  padding-bottom: 20px;
+  /* padding: 0 190px 0 110px; */
+}
+
+/*  USA map styling */
+
+g.map > path {
+  fill: none;
+  stroke:  #8b8888;
+  fill: #515153be;
+  opacity: 0.6;
+}
+
+
+#chart1 > svg {
+  width:1200px;
+  height: 800px;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  align-content: center;
+}
+
+
+.tooltip1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12pt;
+  color: rgb(48, 46, 46);
+  background-color: #f3ca95;
+  padding: 8px;
+  border-radius: 7px;
+  line-height: 24px;
+  pointer-events: none;
+}
+/* Top-15 coin-chart */
+
+.title-container-2 > h2 {
+padding-top: 30px;
+color:#FF9900;
+font-weight: 2px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px 2px;
+    grid-template-areas:
+      "coinchart content";
+  }
+
+
+
+  #coin-content { 
+    grid-area: content; 
+    margin-top: 70px;
+    line-height: 35px;
+    text-align:justify;
+  }
+  
+#chart2 {
+  grid-area: coinchart; 
+  width: 50vh;
+  height: 90vh;
+  margin: -20px;
+  margin-left: 120px;
+}
+
+#chart2 > p {
+  font-size: 17px;
+  opacity: 0.4;
+  margin-left: -35px;
+  margin-bottom: -20px;
+}
+
+
+
+
+
+
+/* ----------------------- */
+
+/* Line-Graph: Chart3 */
+
+.title-container-3 > h2 {
+  margin-top: -375px;
+  /* margin-bottom: 30px; */
+  color:#FF9900;
+  font-weight: 2px;
+  }
+
+#chart3 {
+  width: 80%;
+  height: 65vh;
+  /* margin: 30px 60px 100px 60px; */
+  position: relative;
+}
+
+.labelAxis {
+  font-size: 16pt;
+  /* font-weight: bold; */
+  color: orange;
+}
+
+.axis {
+  font-size: 12pt;
+  color:#78787ac9;
+}
+
+.container-3 >p {
+  line-height: 35px;
+  text-align:justify;
+  margin-bottom: 50px;
+}
+
+/* footer */
+
+.footer {
+  font-family: 'PT Sans', sans-serif;
+  background: #33333370;
+  padding: 30px;
+}
+
+.footer > p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+a {
+  color: rgb(116, 78, 53);
+}
+
+a:hover {
+  background-color: gold;
+}
+
+a:visited {
+  color: rgb(139, 121, 70);
+}
+
+#references {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 17px;
+}
+
+
+/* ---------------------------------- */
+
+
+
+

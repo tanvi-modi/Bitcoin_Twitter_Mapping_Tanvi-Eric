@@ -1,0 +1,184 @@
+{
+    "413627": {
+        "count": 1,
+        "geo_location": "Genesis, Cumberland County, Tennessee, United States",
+        "latitude": 36.1092365,
+        "longitude": -84.9171745,
+        "user_location": "Genesis"
+    },
+    "430361": {
+        "count": 1,
+        "geo_location": "Pluto, Raleigh County, West Virginia, United States",
+        "latitude": 37.7103957,
+        "longitude": -80.9923144,
+        "user_location": "Pluto"
+    },
+    "447299": {
+        "count": 1,
+        "geo_location": "Hell, Putnam Township, Livingston County, Michigan, United States",
+        "latitude": 42.4347571,
+        "longitude": -83.9849477,
+        "user_location": "Hell"
+    },
+    "461887": {
+        "count": 1,
+        "geo_location": "Woodberry, Baltimore, Maryland, 21211, United States",
+        "latitude": 39.332885,
+        "longitude": -76.6484823,
+        "user_location": "Woodberry"
+    },
+    "477239": {
+        "count": 1,
+        "geo_location": "Dalmatia, Northumberland County, Pennsylvania, 17017, United States",
+        "latitude": 40.6542515,
+        "longitude": -76.9024752,
+        "user_location": "Dalmatia"
+    },
+    "64080171": {
+        "count": 1,
+        "geo_location": "Eastcoast, Mount Vernon Street, Bergen Square, Whitman Park, Camden, Camden County, New Jersey, 08103, United States",
+        "latitude": 39.9331707,
+        "longitude": -75.1198318,
+        "user_location": "EastCoast"
+    },
+    "102786272": {
+        "count": 1,
+        "geo_location": "PATH, Battery Park City Greenway, Battery Park City, Manhattan Community Board 1, Manhattan, New York County, New York, 10281, United States",
+        "latitude": 40.71362,
+        "longitude": -74.0181507,
+        "user_location": "path"
+    },
+    "257490816": {
+        "count": 1,
+        "geo_location": "Idaho, United States",
+        "latitude": 43.6447642,
+        "longitude": -114.015407,
+        "user_location": "Idaho"
+    },
+    "257496023": {
+        "count": 1,
+        "geo_location": "Oregon, United States",
+        "latitude": 43.9792797,
+        "longitude": -120.737257,
+        "user_location": "oregon"
+    },
+    "257701567": {
+        "count": 1,
+        "geo_location": "New York, United States",
+        "latitude": 43.1561681,
+        "longitude": -75.8449946,
+        "user_location": "NY"
+    },
+    "257824147": {
+        "count": 2,
+        "geo_location": "Florida, United States",
+        "latitude": 27.7567667,
+        "longitude": -81.4639835,
+        "user_location": "FL"
+    },
+    "257984054": {
+        "count": 9,
+        "geo_location": "United States",
+        "latitude": 39.7837304,
+        "longitude": -100.4458825,
+        "user_location": "USA"
+    },
+    "258150217": {
+        "count": 1,
+        "geo_location": "Missouri, United States",
+        "latitude": 38.7604815,
+        "longitude": -92.5617875,
+        "user_location": "Missouri"
+    },
+    "258179963": {
+        "count": 1,
+        "geo_location": "Valhalla, Mount Pleasant, Town of Mount Pleasant, Westchester County, New York, United States",
+        "latitude": 41.0754695,
+        "longitude": -73.77513001810746,
+        "user_location": "Valhalla"
+    },
+    "258278823": {
+        "count": 1,
+        "geo_location": "Massachusetts, United States",
+        "latitude": 42.3788774,
+        "longitude": -72.032366,
+        "user_location": "Massachusetts"
+    },
+    "258313454": {
+        "count": 1,
+        "geo_location": "Time, Pike County, Illinois, United States",
+        "latitude": 39.5611535,
+        "longitude": -90.72341263148334,
+        "user_location": "Time"
+    },
+    "258332039": {
+        "count": 1,
+        "geo_location": "Baltimore, Maryland, United States",
+        "latitude": 39.2908816,
+        "longitude": -76.610759,
+        "user_location": "Baltimore"
+    },
+    "258349416": {
+        "count": 1,
+        "geo_location": "Colorado, United States",
+        "latitude": 38.7251776,
+        "longitude": -105.607716,
+        "user_location": "Colorado"
+    },
+    "258350986": {
+        "count": 2,
+        "geo_location": "California, United States",
+        "latitude": 36.7014631,
+        "longitude": -118.755997,
+        "user_location": "California"
+    },
+    "258403790": {
+        "count": 3,
+        "geo_location": "Michigan, United States",
+        "latitude": 43.6211955,
+        "longitude": -84.6824346,
+        "user_location": "Michigan"
+    },
+    "258523095": {
+        "count": 1,
+        "geo_location": "Miami, Miami-Dade County, Florida, United States",
+        "latitude": 25.7741728,
+        "longitude": -80.19362,
+        "user_location": "Miami"
+    },
+    "258730098": {
+        "count": 1,
+        "geo_location": "Boston, Suffolk County, Massachusetts, United States",
+        "latitude": 42.3602534,
+        "longitude": -71.0582912,
+        "user_location": "Boston"
+    },
+    "259099280": {
+        "count": 8,
+        "geo_location": "Earth, Lamb County, Texas, United States",
+        "latitude": 34.2331373,
+        "longitude": -102.4107493,
+        "user_location": "Earth"
+    },
+    "259227608": {
+        "count": 1,
+        "geo_location": "Brooklyn, Kings County, New York, United States",
+        "latitude": 40.6501038,
+        "longitude": -73.9495823,
+        "user_location": "brooklyn"
+    },
+    "295875618": {
+        "count": 3,
+        "geo_location": "Ohio, United States",
+        "latitude": 40.2253569,
+        "longitude": -82.6881395,
+        "user_location": "Ohio"
+    },
+    "304496065": {
+        "count": 1,
+        "geo_location": "Chicago, Cook County, Illinois, United States",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212,
+        "user_location": "Chicago"
+    }
+}
